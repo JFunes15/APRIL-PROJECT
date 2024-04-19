@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Yu-Gi-Oh! Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="app">
+    <h1>Yu-Gi-Oh!</h1>
+<div class ="quiz">
+<h2 id="question"> Question 1: Pole Position; Pole Position causes the monster with the highest attack to be unaffaected by spells. So if an 1800 ATK monster has an equip spell giving it 300 ATK and there is a 1900 ATK monster in the opponent's hand, yet to be summoned. What is the proper ruling, ASSUMING that both players are aware of this problem?</h2>
+<div id="answer-buttons">
+<button class="btn"> The effect will fizzle(resolve without effect) because the appropiate target is no longer on field.</button>
+<button class="btn"> This will cause an infinite loop, that'll cause a judge to be called to state how many more times this loop is allowed to happen until the player who started it, is forced to destroy their Pole Position.</button>
+<button class="btn"> The monster with 1900 ATK, is NOT allowed to be summoned.</button>
+<button class="btn"> The monster with 1800 ATK, will be unaffected by the equip spell, bringing it back to 1800 ATk, thus meaning the monster with 1900 ATK is now the strongest monster, so IT is the new target of the unaffected status.</button>
+    </div>
+    <button id="next-btn">Next</button>
+ </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
